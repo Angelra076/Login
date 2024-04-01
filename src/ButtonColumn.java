@@ -42,7 +42,7 @@ public class ButtonColumn extends AbstractCellEditor implements TableCellRendere
             action.actionPerformed(event);
             fireEditingStopped();
         } else {
-            // Manejo cundo no hay ninguna fila seleccionada para editar
+            // Manejo cuando no hay ninguna fila seleccionada para editar
             System.out.println("No hay fila seleccionada para editar.");
         }
     }
